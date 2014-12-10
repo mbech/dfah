@@ -1,6 +1,7 @@
 /* box-sizing reset */
 html {
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 
 *, *:before, *:after {
@@ -31,7 +32,6 @@ ul {
 }
 
 li {
-  border: 1px solid green;
   display: inline-block;
   min-width: 250px;
   width: 40%;
@@ -45,8 +45,9 @@ header {
 } 
 
 #main-title h1 {
-  color: white;
+  color: #FFF;
   font-size: 3em;
+  font-weight: 300;
   padding: 0 0;
 }
 
@@ -65,6 +66,7 @@ section {
 footer {
   background-color: #B10000;
   bottom: 0;
+  color: #FFF;
   position: absolute;
   width: 100%;
 } 
