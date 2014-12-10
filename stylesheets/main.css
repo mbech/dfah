@@ -61,15 +61,15 @@ header {
 
 /* Hat Sections */
 #main-section-container{
-  background-color: purple;
+  background-color: #FFF;
   width: 100%;
-  top: 50px;
-  bottom: 20px;
+  top: 40px;
+  bottom: 10px;
   position:absolute;
 }
 
 section {
-  border: 5px solid blue;
+  background-color: grey;
   width: 50%;
   height: 100%;
   overflow:auto;
@@ -84,6 +84,8 @@ section {
 
 /* Hat Contents Section */
 #hat-contents {
+  background-color: #DDD;
+  border: 5px solid red;
   float: right;
   font-size: 5em;
 }
