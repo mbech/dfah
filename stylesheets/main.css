@@ -2,13 +2,34 @@ html, body {
   height: 100%;
 }
 body{
-  background-color: #FFF; 
+  background-color: #E8E8E8; 
+  color: #000;
+  text-align: center;
 }
+
+h1 {
+  margin: 0 0;
+  padding: .1em .1em;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  padding: 0 0;
+  width: 100%;
+}
+
+li {
+  border: 1px solid green;
+  display: inline-block;
+  width: 30%;
+  padding: 0 4em;
+}
+
 
 /* Header */
 header {
   background-color: #B10000;
-  height: 3em;
 } 
 
 /* Hat */
@@ -20,8 +41,7 @@ header {
 /* Footer */
 footer {
   background-color: #B10000;
-  height: 1em;
-  position: absolute;
   bottom: 0;
+  position: absolute;
   width: 100%;
 } 
