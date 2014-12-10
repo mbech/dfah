@@ -33,40 +33,69 @@ ul {
 
 li {
   display: inline-block;
+  padding: 0 4em;
   min-width: 250px;
   width: 40%;
-  padding: 0 4em;
 }
 
 
 /* Header */
 header {
+  position:relative;
   background-color: #B10000;
+  width: 100%;
+  z-index: 1;
 } 
 
-#main-title h1 {
+#title-logo {
+  box-shadow: 0 3px 5px #7A7A7A;
+  min-height: 50px;
+}
+
+#title-logo h1 {
   color: #FFF;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 300;
   padding: 0 0;
 }
 
 /* Hat Sections */
-section {
+#main-section-container{
+  background-color: purple;
+  width: 100%;
+  top: 50px;
+  bottom: 20px;
+  position:absolute;
+}
 
+section {
+  border: 5px solid blue;
+  width: 50%;
+  height: 100%;
+  overflow:auto;
 }
 
 /* Hat Entry Section */
+#hat-entry {
+  float: left
+}
 
 /* Hat Drawing */
 
 /* Hat Contents Section */
+#hat-contents {
+  float: right;
+  font-size: 5em;
+}
 
 /* Footer */
 footer {
   background-color: #B10000;
   bottom: 0;
+  box-shadow: 0 -3px 5px #7A7A7A;
   color: #FFF;
-  position: absolute;
+  left: 0;
+  position: fixed;
   width: 100%;
+  min-height: 20px;
 } 
