@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+}
+body{
+  background-color: #FFF; 
+}
+
+/* Header */
+header {
+  background-color: #B10000;
+  height: 3em;
+} 
+
+/* Hat */
+
+/* Hat Entry Section */
+
+/* Hat Contents Section */
+
+/* Footer */
+footer {
+  background-color: #B10000;
+  height: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
