@@ -4,6 +4,7 @@ DFAH.domManip = {
     $inputField.parent('form').on("submit", function(e){
       e.preventDefault();
       $inputField.val("").attr("placeholder", "add more!");
+      $inputField.focus();
     });
   }
 }

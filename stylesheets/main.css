@@ -119,6 +119,9 @@ section {
   color: #FFF;
 }
 
+#hat-text-submit:focus {
+  outline: none;
+}
 /* Hat Drawing */
 
 /* Hat Contents Section */
