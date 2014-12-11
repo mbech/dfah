@@ -1,8 +1,8 @@
-var hat = {
+DFAH.hat = {
   contents: []
 }
 
-hat.prototype = {
+DFAH.hat.prototype = {
   add: function(item){
     this.contents.push(item);
     return this;
