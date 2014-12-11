@@ -6,5 +6,9 @@ DFAH.domManip = {
       $inputField.val("").attr("placeholder", "add more!");
       $inputField.focus();
     });
+  },
+
+  initialFocus: function(){
+    $('#hat-text-input').focus();
   }
 }
