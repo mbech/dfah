@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+
+*{
+    line-height: normal !important;
+}
+
 /* General Styles */
 html, body {
   height: 100%;
@@ -78,6 +83,35 @@ section {
 /* Hat Entry Section */
 #hat-entry {
   float: left
+}
+
+#hat-entry form {
+  margin: auto;
+  margin-top: 20%;
+  overflow:auto;
+}
+
+#hat-entry-form input, #hat-entry-form button {
+  float:left;
+  vertical-align: middle;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 2em;
+}
+
+#hat-text-input {
+  margin-left: 10%;
+  width :80%;
+  padding-left: .2em;
+  padding-right: .2em;
+  border: 5px solid #333;
+  border-right: none;
+}
+
+#hat-text-submit {
+  background-color: #B10000;
+  color: #FFF;
+  border: 5px solid #333;
 }
 
 /* Hat Drawing */
