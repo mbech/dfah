@@ -4,11 +4,13 @@ var hat = {
 
 hat.prototype = {
   add: function(item){
-    //TODO: Implement
+    this.contents.push(item);
+    return this;
   },
 
   remove: function(index){
-    //TODO: Implement
+    this.contents = this.contents.slice(0,index).concat(this.contents.slice(index+1));
+    return this;
   },
 
   shake: function(){
