@@ -74,7 +74,7 @@ header {
 }
 
 section {
-  background-color: grey;
+  background-color: #DDD;
   width: 50%;
   height: 100%;
   overflow:auto;
@@ -89,6 +89,7 @@ section {
   margin: auto;
   margin-top: 20%;
   overflow:auto;
+  margin-left: 10%;
 }
 
 #hat-entry-form input, #hat-entry-form button {
@@ -97,21 +98,25 @@ section {
   padding-top: .5em;
   padding-bottom: .5em;
   font-size: 2em;
+  border:none;
 }
 
 #hat-text-input {
-  margin-left: 10%;
+  background-color: #888;
   width :80%;
   padding-left: .2em;
   padding-right: .2em;
-  border: 5px solid #333;
-  border-right: none;
+}
+
+#hat-text-input:focus {
+  background-color: #FFF;
+  outline: none;
 }
 
 #hat-text-submit {
+  width: 10%;
   background-color: #B10000;
   color: #FFF;
-  border: 5px solid #333;
 }
 
 /* Hat Drawing */
