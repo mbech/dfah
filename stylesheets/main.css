@@ -53,8 +53,7 @@ header {
 } 
 
 #title-logo {
-  box-shadow: 0 3px 5px #7A7A7A;
-  min-height: 50px;
+  height: 50px;
 }
 
 #title-logo h1 {
@@ -68,7 +67,7 @@ header {
 #main-section-container{
   background-color: #FFF;
   width: 100%;
-  top: 40px;
+  top: 50px;
   bottom: 10px;
   position:absolute;
 }
@@ -126,17 +125,31 @@ section {
 
 /* Hat Contents Section */
 #hat-contents {
-  background-color: #DDD;
-  border: 5px solid red;
+  background-color: #EF9393;
+  box-shadow: -3px 0 5px #7A7A7A;
   float: right;
-  font-size: 5em;
+  font-size: 2em;
+  text-align: left;
+}
+
+.content-item {
+  padding: .5em .5em;
+  margin: .1em .1em;
+  background-color: #FFF;
+  border-radius: 0.2em;
+  border: 2px solid #EF9393;
+}
+
+.content-item:hover {
+  background-color: #EF9393;
+  border: 2px solid #FFF;
+  color: #FFF;
 }
 
 /* Footer */
 footer {
   background-color: #B10000;
   bottom: 0;
-  box-shadow: 0 -3px 5px #7A7A7A;
   color: #FFF;
   left: 0;
   position: fixed;
