@@ -73,7 +73,6 @@ header {
 }
 
 section {
-  background-color: #DDD;
   width: 50%;
   height: 100%;
   overflow:auto;
@@ -81,7 +80,8 @@ section {
 
 /* Hat Entry Section */
 #hat-entry {
-  float: left
+  float: left;
+  background-image: url('../img/tweed/tweed.png');
 }
 
 #hat-entry form {
@@ -126,7 +126,6 @@ section {
 /* Hat Contents Section */
 #hat-contents {
   background-color: #EF9393;
-  box-shadow: -3px 0 5px #7A7A7A;
   float: right;
   font-size: 2em;
   text-align: left;
