@@ -101,7 +101,7 @@ section {
 }
 
 #hat-text-input {
-  background-color: #888;
+  background-color: #CCC;
   width :80%;
   padding-left: .2em;
   padding-right: .2em;
@@ -125,7 +125,7 @@ section {
 
 /* Hat Contents Section */
 #hat-contents {
-  background-color: #EF9393;
+  background-color: #ED3D3D;
   float: right;
   font-size: 2em;
   text-align: left;
@@ -133,14 +133,14 @@ section {
 
 .content-item {
   padding: .5em .5em;
-  margin: .1em .1em;
+  margin: .2em .4em;
   background-color: #FFF;
   border-radius: 0.2em;
-  border: 2px solid #EF9393;
+  border: 2px solid #ED3D3D;
 }
 
 .content-item:hover {
-  background-color: #EF9393;
+  background-color: #ED3D3D;
   border: 2px solid #FFF;
   color: #FFF;
 }
