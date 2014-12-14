@@ -135,7 +135,6 @@ section {
   padding: .5em .5em;
   margin: .2em .4em;
   background-color: #FFF;
-  border-radius: 0.2em;
   border: 2px solid #ED3D3D;
 }
 
@@ -144,6 +143,23 @@ section {
   border: 2px solid #FFF;
   color: #FFF;
 }
+
+.content-item:hover .remove-item {
+  color: white;
+  border: 2px solid #FFF;
+}
+
+.item-text {
+  display: inline;
+}
+
+.remove-item {
+  display: inline-block;
+  color: #ED3D3D;
+  border: 2px solid #ED3D3D;
+  padding: .1em .2em;
+}
+
 
 /* Footer */
 footer {
