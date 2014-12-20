@@ -1,6 +1,6 @@
 DFAH.hat = {
   contents: []
-}
+};
 
 DFAH.hat.prototype = {
   add: function(item){
@@ -16,8 +16,7 @@ DFAH.hat.prototype = {
   shake: function(){
     //randomize order of contents using Fisher-Yates Shuffle
     var counter = this.contents.length,
-        temp,
-        counter;
+        temp;
 
     while (counter){
       index = Math.floor(Math.random() * counter);
@@ -41,4 +40,4 @@ DFAH.hat.prototype = {
     }
     return str;
   }
-}
+};
