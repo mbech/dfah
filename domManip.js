@@ -15,4 +15,4 @@ DFAH.domManip = {
   initialFocus: function(){
     $('#hat-text-input').focus();
   }
-}
+};
