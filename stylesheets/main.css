@@ -121,7 +121,26 @@ section {
 #hat-text-submit:focus {
   outline: none;
 }
+
 /* Hat Drawing */
+#hat-drawing {
+    margin-top: 5em;
+}
+
+.hat-brim, .hat-base {
+  background-color: #000;
+  margin: auto;
+}
+
+.hat-brim {
+  height: 2em;
+  width: 16em;
+}
+
+.hat-base {
+  height: 8em; 
+  width: 10em;
+}
 
 /* Hat Contents Section */
 #hat-contents {
