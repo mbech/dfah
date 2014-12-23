@@ -173,10 +173,17 @@ section {
 }
 
 .remove-item {
+  cursor: pointer;
   display: inline-block;
   color: #ED3D3D;
   border: 2px solid #ED3D3D;
   padding: .1em .2em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
