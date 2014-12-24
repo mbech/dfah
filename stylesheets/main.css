@@ -138,6 +138,7 @@ section {
 }
 
 .hat-base {
+  border-top: 1em solid #B10000;
   height: 8em; 
   width: 10em;
 }
